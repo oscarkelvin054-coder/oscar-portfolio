@@ -1,8 +1,47 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Oscar Kelvin</title><link rel="stylesheet" href="style.css"></head><body>
-<nav><b>OK.</b><span>Student / Frontend Dev</span></nav>
-<div class="hero"><h1>Oscar Kelvin</h1><h2 id="type"></h2><p>Student / Frontend Dev from PH. I build fast, secure tools.</p><a class="btn" href="#projects">Projects</a><a class="btn ghost" href="https://wa.me/2348084225535">WhatsApp: 08084225535</a></div>
-<section id="projects"><h3>Projects</h3>
-<div class="card"><b>OSCAR TOOL v4.0 - 100/100</b><p>Live password analyzer with 3s debounce, entropy & crack-time.</p><a href="https://password-checker.pxxlspace.cv">Live Demo</a></div>
-<div class="card"><b>Skills</b><p>HTML, CSS, JS, Python</p></div></section>
-<section id="contact"><h3>Contact</h3><a class="btn" href="https://wa.me/2348084225535">Chat on WhatsApp</a></section>
-<script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oscar Kelvin | Frontend Dev</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav>
+<h2>OK.</h2>
+<div><button id="themeToggle">🌙</button> <a href="#contact">Hire Me</a></div>
+</nav>
+<div class="hero">
+<h1><span id="type"></span></h1>
+<p>Student / Frontend Dev — PH, NG | I build fast, secure tools</p>
+<a href="https://wa.me/2348084225535" class="btn">WhatsApp: 08084225535</a>
+</div>
+</header>
+
+<section id="skills"><h2>Skills</h2>
+<div class="skill"><span>HTML</span><div class="bar"><div data-w="95%"></div></div></div>
+<div class="skill"><span>CSS</span><div class="bar"><div data-w="90%"></div></div></div>
+<div class="skill"><span>JavaScript</span><div class="bar"><div data-w="85%"></div></div></div>
+<div class="skill"><span>Python</span><div class="bar"><div data-w="80%"></div></div></div>
+</section>
+
+<section id="projects"><h2>Projects</h2>
+<div class="filters"><button data-f="all" class="active">All</button><button data-f="tool">Tools</button><button data-f="web">Web</button></div>
+<div class="grid">
+<div class="card" data-cat="tool"><h3>Password Analyzer v4 [100/100]</h3><p>Debounce + Entropy + Reusable funcs</p><div><a href="https://password-checker.pxxlspace.cv" target="_blank">Live</a> | <a href="#">GitHub</a></div></div>
+<div class="card" data-cat="web"><h3>Portfolio v2</h3><p>Dark/Light, WhatsApp Form, Filter</p><div><a href="#">Live</a></div></div>
+</div>
+</section>
+
+<section id="contact"><h2>Hire Me — WhatsApp Direct</h2>
+<form id="waForm">
+<input id="cName" placeholder="Your Name" required>
+<input id="cBudget" placeholder="Budget e.g. 20k">
+<textarea id="cMsg" placeholder="Wetin you want build?" required></textarea>
+<button type="submit">Send to WhatsApp</button>
+</form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
