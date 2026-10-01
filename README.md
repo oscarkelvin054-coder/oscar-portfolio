@@ -3,6 +3,10 @@
 
 Live: **https://oscar-portfolio.pxxlspace.cv**
 
+Live: https://blessed-cutz-demo.pxxlspace.cv/
+
+Live: https://oscarkelvin054-coder.github.io/chivik-beauty-world/
+
 ### 👋 About Me
 I'm Oscar Kelvin — I build fast, secure, modular websites with HTML, CSS, JS, Python. Focused on clean reusable functions & performance (like debounce, typeWriter).
 
