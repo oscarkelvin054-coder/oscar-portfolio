@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Oscar Kelvin - Frontend Dev</title>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;color:#fff;font-family:'Shadows Into Light',cursive;padding:16px 14px;max-width:600px;margin:auto}
+.top{font-size:38px;text-align:center;line-height:1.1;margin-top:25px}
+.sub{text-align:center;font-size:18px;margin-top:10px;opacity:.85;line-height:1.3}
+.wa{display:block;margin:18px auto 0;background:#0fdb7a;color:#000;padding:10px 18px;border-radius:12px;text-align:center;max-width:280px;text-decoration:none;font-size:20px;font-weight:700}
+.sec{margin-top:42px;font-size:34px}
+.skill-label{font-size:20px;margin-top:14px}
+.bar-bg{background:#1a1a1a;border-radius:10px;height:14px;margin:5px 0 10px;overflow:hidden}
+.bar{background:#0fdb7a;height:100%;border-radius:10px}
+.filt{display:flex;gap:8px;margin:14px 0 12px}
+.filt button{border:none;padding:10px 18px;border-radius:10px;font-family:inherit;font-size:18px;cursor:pointer}
+.filt .all{background:#fff;color:#000}
+.filt .green{background:#0fdb7a;color:#000}
+.card{background:#111;border-radius:16px;padding:16px;margin-bottom:14px;border:1px solid #222}
+.card h3{font-size:22px;line-height:1.3}
+.card p{font-size:16px;opacity:.75;margin-top:6px;line-height:1.3}
+.card a{color:#3d8bff;text-decoration:underline;font-size:18px;margin-right:12px}
+.tag-live{background:#0fdb7a;color:#000;padding:2px 8px;border-radius:8px;font-size:11px;margin-left:6px;vertical-align:middle}
+.price{color:#0fdb7a;float:right;font-size:18px}
+.hire-title{font-size:32px;margin-top:50px}
+.input{width:100%;background:#111;border:1px solid #333;border-radius:10px;padding:14px;margin-top:14px;color:#fff;font-family:inherit;font-size:18px;outline:none}
+.input:focus{border-color:#0fdb7a}
+.btn-send{width:100%;background:#0fdb7a;color:#000;border:none;padding:14px;border-radius:12px;font-family:inherit;font-size:20px;font-weight:700;margin-top:16px;cursor:pointer}
+.foot{text-align:center;opacity:.5;margin:30px 0;font-size:16px}
+</style>
+</head>
+<body>
+
+<div class="top">I'm Oscar Kelvin —<br>Frontend Dev</div>
+<div class="sub">Student / Frontend Dev — PH, NG | I build fast, secure tools</div>
+<a class="wa" href="https://wa.me/2348084225535">WhatsApp: 08084225535</a>
+
+<div class="sec">Skills</div>
+<div class="skill-label">HTML</div><div class="bar-bg"><div class="bar" style="width:92%"></div></div>
+<div class="skill-label">CSS</div><div class="bar-bg"><div class="bar" style="width:88%"></div></div>
+<div class="skill-label">JavaScript</div><div class="bar-bg"><div class="bar" style="width:85%"></div></div>
+<div class="skill-label">Python</div><div class="bar-bg"><div class="bar" style="width:80%"></div></div>
+
+<div class="sec">Projects</div>
+<div class="filt">
+  <button class="all" onclick="filterP('all')">All</button>
+  <button class="green" onclick="filterP('tools')">Tools</button>
+  <button class="green" onclick="filterP('web')">Web</button>
+</div>
+
+<!-- CHIVIK -->
+<div class="card web" style="border-left:4px solid #ff8ac4">
+  <h3>CHIVIK Beauty World (1 C) <span class="tag-live">LIVE</span> <span class="price">₦25k</span></h3>
+  <p>Hair & Beauty Booking Website - Rumuigbo, PH<br>✅ Nails, Lashes, Braids, Perfumes, Wig Install<br>✅ WhatsApp Booking + Price List</p>
+  <div style="margin-top:10px"><a href="https://chivik-beauty-world.netlify.app" target="_blank">Live</a> <a href="https://github.com/oscarkelvin054-coder/chivik-beauty-world" target="_blank">GitHub</a></div>
+</div>
+
+<!-- BLESSED CUTZ -->
+<div class="card web" style="border-left:4px solid #0fdb7a">
+  <h3>Blessed Cutz - Barber Shop <span class="tag-live">LIVE</span> <span class="price">₦35k</span></h3>
+  <p>Barber Booking Website - Modern booking<br>✅ Online Appointment + Haircut Gallery<br>✅ WhatsApp Integration</p>
+  <div style="margin-top:10px"><a href="https://blessed-cutz-demo.pxxlspace.cv/" target="_blank">Live</a> <a href="#" target="_blank">GitHub</a></div>
+</div>
+
+<!-- PASSWORD -->
+<div class="card tools">
+  <h3>Password Analyzer v4 [100/100]</h3>
+  <p>Debounce + Entropy + Reusable funcs</p>
+  <div style="margin-top:10px"><a href="#" target="_blank">Live</a> <a href="#" target="_blank">GitHub</a></div>
+</div>
+
+<!-- PORTFOLIO V2 -->
+<div class="card web">
+  <h3>Portfolio v2</h3>
+  <p>Dark/Light, WhatsApp Form, Filter</p>
+  <div style="margin-top:10px"><a href="https://oscar-portfolio.pxxlspace.cv" target="_blank">Live</a></div>
+</div>
+
+<div class="hire-title">Hire Me — WhatsApp Direct</div>
+<input class="input" id="name" placeholder="Your Name">
+<input class="input" id="budget" placeholder="Budget e.g. 20k">
+<textarea class="input" id="msg" rows="4" placeholder="Wetin you want build?"></textarea>
+<button class="btn-send" onclick="sendWA()">Send to WhatsApp</button>
+
+<div class="foot">© 2025 Oscar Kelvin — Built with 💚 in PH</div>
+
+<script>
+function filterP(t){
+  document.querySelectorAll('.card').forEach(c=>{
+    if(t==='all') c.style.display='block';
+    else c.style.display = c.classList.contains(t) ? 'block' : 'none';
+  });
+}
+function sendWA(){
+  let n=document.getElementById('name').value||'Client';
+  let b=document.getElementById('budget').value||'';
+  let m=document.getElementById('msg').value||'I need a website';
+  let text=`Hello Oscar! I'm ${n}. Budget: ${b}. Message: ${m}`;
+  window.open('https://wa.me/2348084225535?text='+encodeURIComponent(text),'_blank');
+}
+</script>
+</body>
+</html>
