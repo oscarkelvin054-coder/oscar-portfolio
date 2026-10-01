@@ -5,6 +5,8 @@ Live: **https://oscar-portfolio.pxxlspace.cv**
 
 Live: https://blessed-cutz-demo.pxxlspace.cv/
 
+Live: https://chivik-beauty-world.netlify.app
+
 Live: https://oscarkelvin054-coder.github.io/chivik-beauty-world/
 
 ### 👋 About Me
