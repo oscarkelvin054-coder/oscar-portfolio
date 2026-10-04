@@ -13,14 +13,21 @@ Live: https://oscarkelvin054-coder.github.io/chivik-beauty-world/
 I'm Oscar Kelvin — I build fast, secure, modular websites with HTML, CSS, JS, Python. Focused on clean reusable functions & performance (like debounce, typeWriter).
 
 ### 🚀 Projects
-**1. OSCAR TOOL v4.0 — Password Strength Analyzer [100/100]**
-- Live: https://password-checker.pxxlspace.cv
-- Features: Real-time entropy, crack-time calc, pattern detection, debounce (3s), 100/100 scoring
-- Stack: Modular JS (reusable functions)
 
-**2. This Portfolio**
+**1. This Portfolio**
 - You are here! Dark hacker theme, responsive, typing animation.
 
+**2. Chivik Beauty World - Luxury Beauty E-commerce
+   - Live: https://chivik-beauty-world.pxxlspace.cv/
+
+**3. GlamNails by Bella - Luxury Beauty E-commerce
+   - Live: https://glamnails-by-bella.pxxlspace.cv/
+   - Features: Luxury UI, 80+ PageSpeed, Meta Pixel, Paystack
+   - Stack: WordPress + Woo + LiteSpeed + Cloudflare
+
+**4. Gift Daughters Enterprise - Fashion Store
+   - Live: https://gift-daughters-enterprise.pxxlspace.cv/
+   - Stack: WooCommerce + Luxury Minimal
 ### 🛠️ Skills
 `HTML` `CSS` `JavaScript` `Python` `Git & GitHub` `Responsive Design`
 
