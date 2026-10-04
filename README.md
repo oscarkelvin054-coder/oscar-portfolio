@@ -3,12 +3,6 @@
 
 Live: **https://oscar-portfolio.pxxlspace.cv**
 
-Live: https://blessed-cutz-demo.pxxlspace.cv/
-
-Live: https://chivik-beauty-world.netlify.app
-
-Live: https://oscarkelvin054-coder.github.io/chivik-beauty-world/
-
 ### 👋 About Me
 I'm Oscar Kelvin — I build fast, secure, modular websites with HTML, CSS, JS, Python. Focused on clean reusable functions & performance (like debounce, typeWriter).
 
@@ -16,9 +10,13 @@ I'm Oscar Kelvin — I build fast, secure, modular websites with HTML, CSS, JS, 
 
 **1. This Portfolio**
 - You are here! Dark hacker theme, responsive, typing animation.
+Live: **https://oscar-portfolio.pxxlspace.cv**
+
 
 **2. Chivik Beauty World - Luxury Beauty E-commerce
-   - Live: https://chivik-beauty-world.pxxlspace.cv/
+   - Live: https://oscarkelvin054-coder.github.io/chivik-beauty-world/
+https://chivik-beauty-world.netlify.app
+
 
 **3. GlamNails by Bella - Luxury Beauty E-commerce
    - Live: https://glamnails-by-bella.pxxlspace.cv/
